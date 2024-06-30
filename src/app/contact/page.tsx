@@ -11,23 +11,23 @@ const socials = [
 		label: "LinkedIn",
 		handle: "/in/ameyalaad",
 	},
-	{
-		icon: <Mail size={20} />,
-		href: "mailto:ameyalaad@gmail.com",
-		label: "Email",
-		handle: "ameyalaad@gmail.com",
-	},
-	{
-		icon: <Github size={20} />,
-		href: "https://github.com/ameyalaad",
-		label: "Github",
-		handle: "ameyalaad",
-	},
+	// {
+	// 	icon: <Mail size={20} />,
+	// 	href: "mailto:ameyalaad@gmail.com",
+	// 	label: "Email",
+	// 	handle: "ameyalaad@gmail.com",
+	// },
 	{
 		icon: <FileText size={20} />,
 		href: "https://ameyalaad.github.io/portfolio_v4/resume.pdf",
 		label: "",
 		handle: "Resume",
+	},
+	{
+		icon: <Github size={20} />,
+		href: "https://github.com/ameyalaad",
+		label: "Github",
+		handle: "/ameyalaad",
 	},
 ];
 

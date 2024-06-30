@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter, Poppins } from "next/font/google";
 import { Metadata } from "next";
+import localFont from "next/font/local"
 
 export const metadata: Metadata = {
   title: {
@@ -54,6 +55,11 @@ const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
+const calSans = localFont({
+  src: '../../public/fonts/CalSans-SemiBold.ttf',
+  variable: "--font-calsans",
+})
+
 
 export default function RootLayout({
   children,
@@ -61,7 +67,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={[inter.variable, poppins.variable].join(" ")}>
+    <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
       <body
         className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
           }`}
