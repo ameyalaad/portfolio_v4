@@ -42,7 +42,7 @@ export default function Home() {
             href="https://ameyalaad.github.io/portfolio_v4/resume.pdf"
             className="underline duration-500 hover:text-zinc-300"
           >
-            resume
+            curriculum vitae
           </Link>.
         </h2>
       </div>
